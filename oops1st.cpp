@@ -16,8 +16,9 @@ class car
 int main()
 {   
     //whenever an object is created , constructor is called
-    car x; //x is called an object 
+    car  x; //x is called an object 
     car y;
+    cout<<"after cons"<<endl;
      // . opereator 
     //objectname.buckettoaccess
     x.name="bmw";
@@ -28,7 +29,7 @@ int main()
     cout<<x.name<<endl;
     cout<<x.colour<<endl;
     cout<<x.price<<endl;
-    cout<<x.seats<<endl;
+    cout<<x.seats<<endl; 
     
     return 0;
 }
